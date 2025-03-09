@@ -10,29 +10,20 @@
 
     <style>
         .content {
+            transform: translateY(50%);
             text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 240px;
             border: 1px solid rgb(181, 181, 181);
             border-radius: 25px;
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-            padding: 50px 50px 30px 50px;
-            margin: 10px;
+            padding: 75px 50px;
             width: 450px;
-            display: inline-block;
             transition: 0.1s;
             font-family: "Montserrat";
-            margin-left: 31%;
-            margin-right: 31%;
-            margin-top: 12%;
-            margin-bottom: 12%;
+            margin: auto;
         }
 
         .content:hover {
             border: 2px solid rgb(0, 127, 255);
-            cursor: pointer;
         }
 
         input {
@@ -61,6 +52,9 @@
 </head>
 
 <body>
+    <form>
+
+    </form>
     <div class="content">
         <img src="assets/padlock.png" width="70px" height="70px">
         <h1>This content is protected.</h1>
@@ -74,7 +68,7 @@
             if (password === "cheesedev$0705") {
                 window.open("QD7Rj2qSd36v.html", "_blank");
             } else {
-                alert("You thought you could get pass so easily...");
+                alert("...");
             }
         }
     </script>
